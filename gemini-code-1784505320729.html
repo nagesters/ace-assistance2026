@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Ace Assistance ICSO Philippines</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+<header id="header">
+    <div class="logo-container">
+        <a href="index.html"><img src="asset 2 (1).png" alt="Ace Assistance Logo" onerror="this.style.display='none'"></a>
+        <h1>ACE ASSISTANCE</h1>
+    </div>
+    
+    <!-- This checkbox controls the mobile menu sliding state -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Partners</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="accreditation.html">Accreditation</a></li>
+            <li><a href="contact.html">Contact</a></li>
+    </nav>
+</header>
+
+<section class="hero3">
+        <div class="hero3-content">
+               <h1>Explore Your Global Education Journey</h1>
+               <p>Discover top universities, student experiences, video tours, and visa consultation services</p>
+        </div>  
+    </section> 
+
+
+  <div class="container">
+
+    <!-- Filter Buttons -->
+    <div class="filter-menu">
+      
+      <button class="filter-btn" data-filter="partners">All Partners</button>
+      <button class="filter-btn" data-filter="canada">Canada</button>
+      <button class="filter-btn" data-filter="usa">United States</button>
+      <button class="filter-btn" data-filter="europe">Europe</button>
+      <button class="filter-btn" data-filter="nz">New Zealand</button>
+    </div>
+
+    <!-- Gallery Grid -->
+    <div class="gallery-grid">
+
+      <!-- Video Gallery London -->
+      <div class="gallery-item is-hidden-repo" data-category="europe partners" data-video="videos/london.mp4">
+        <img src="images/london.png" alt="Campus Life Tour" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">London</span>
+          <h3>North London Grammar School</h3>
+          <p>Watch full video highlights from our partner school in London.</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+      <!-- Video Gallery Malta-->
+      <div class="gallery-item" data-category="europe partners" data-video="images/malta.mp4">
+        <img src="https://mt.ideaeducation.com/app/uploads/2024/09/fb_share-college.jpg" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Malta</span>
+          <h3>Idea College</h3>
+          <p>Hear directly from our partner college in Malta .</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+            <!-- Video Gallery france-->
+      <div class="gallery-item" data-category="europe partners" data-video="videos/france.mp4">
+        <img src="images/Omnes.png" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">France</span>
+          <h3>Omnes Education</h3>
+          <p>Hear directly from our partner college in France .</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+                  <!-- Video Gallery usa-->
+      <div class="gallery-item" data-category="usa partners" data-video="videos/usa.mp4">
+        <img src="images/Westcliff.png" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">United States</span>
+          <h3>Westlfiff University</h3>
+          <p>Hear directly from our partner college in USA .</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+                  <!-- Video Gallery Spain-->
+      <div class="gallery-item" data-category="europe partners" data-video="videos/spain.mp4">
+        <img src="images/spain.png" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Spain</span>
+          <h3>Carlos V Education</h3>
+          <p>Hear directly from our partner school in Spain .</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+                  <!-- Video Gallery New Zealand-->
+      <div class="gallery-item" data-category="nz partners" data-video="videos/new zealand.mp4">
+        <img src="images/Unitec.png" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">New Zealand</span>
+          <h3>Unitec</h3>
+          <p>Hear directly from our partner school in New Zealand .</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+                  <!-- Video Gallery New Northern College-->
+      <div class="gallery-item" data-category="canada partners" data-video="videos/ncollege.mp4">
+        <img src="images/ncollege.png" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">New Canada</span>
+          <h3>Northern College</h3>
+          <p>Hear directly from one of our partner schools Canada.</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+                  <!-- Video Gallery middle tenesse state university-->
+      <div class="gallery-item" data-category="usa partners" data-video="videos/mtusa.mp4">
+        <img src="images/mtusa.png" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">United States</span>
+          <h3>Middle Tennesse State University</h3>
+          <p>Hear directly from one of our partner universities in the US.</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+                  <!-- Video Gallery Millikin university-->
+      <div class="gallery-item" data-category="usa partners" data-video="videos/millikin.mp4">
+        <img src="images/millikin.png" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">United States</span>
+          <h3>Millikin University</h3>
+          <p>Hear directly from one of our partner universities in the US.</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+                  <!-- Video Gallery csm-->
+      <div class="gallery-item" data-category="usa partners data-video="videos/csn.mp4">
+        <img src="images/csn.png" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">United States</span>
+          <h3>College of Southern Nevada</h3>
+          <p>Hear directly from one of our partner colleges in the US.</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+                  <!-- Video Gallery Campus spain-->
+      <div class="gallery-item" data-category="europe partners" data-video="videos/cspain.mp4">
+        <img src="images/cspain.png" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Spain</span>
+          <h3>Campus Spain</h3>
+          <p>Hear directly from one of our partner schools in the spain.</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+                        <!-- Standard keyano College-->
+      <div class="gallery-item" data-category="canada partners" data-video="videos/keyano.mp4">
+        <img src="images/keyano.png" alt="Study in Australia" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Keyano College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+      <!-- Standard Image NCc-->
+      <div class="gallery-item is-hidden-repo" data-category="canada partners">
+        <img src="images/ncc.png" alt="Study in Australia" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Niagara College Canada</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Explore Programs</button>
+        </div>
+      </div>
+
+                        <!-- Standard Image centennial College-->
+      <div class="gallery-item is-hidden-repo" data-category="canada partners">
+        <img src="images/centennial.png" alt="Study in Australia" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Centennial College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Explore Programs</button>
+        </div>
+      </div>
+
+            <!-- Standard Image evergreen-->
+      <div class="gallery-item is-hidden-repo" data-category="canada partners">
+        <img src="images/evergreen.png" alt="Study in Australia" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Evergreen College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Explore Programs</button>
+        </div>
+      </div>
+                  <!-- Standard Image Northern lights Collge-->
+      <div class="gallery-item is-hidden-repo" data-category="canada partners">
+        <img src="images/nlc.png" alt="Study in Canada" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Northern Lights  College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Explore Programs</button>
+        </div>
+      </div>  
+                  <!-- Standard Image Canada College-->
+      <div class="gallery-item is-hidden-repo" data-category="canada partners">
+        <img src="images/ccollege.png" alt="Study in Australia" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Canada College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Explore Programs</button>
+        </div>
+      </div>
+                  <!-- Standard Algonquin College-->
+      <div class="gallery-item is-hidden-repo" data-category="canada partners">
+        <img src="images/algo.png" alt="Study in Canada" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Algonquin College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Explore Programs</button>
+        </div>
+      </div>
+
+
+                  <!-- Standard Douglas International-->
+      <div class="gallery-item is-hidden-repo" data-category="canada partners">
+        <img src="images/douglas.png" alt="Study in Canada" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Douglas International College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Explore Programs</button>
+        </div>
+      </div>
+ 
+              <!-- Standard Columbia college-->
+      <div class="gallery-item is-hidden-repo" data-category="canada partners" data-video="videos/stenberg.mp4">
+        <img src="images/columbia.png" alt="Study in Canada" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Columbia College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+              <!-- Standard Canadian college-->
+      <div class="gallery-item is-hidden-repo" data-category="canada partners">
+        <img src="images/canadian.png" alt="Study in Canada" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Canadian College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Explore Programs</button>
+        </div>
+      </div>
+
+              <!-- Standard stenberg college-->
+        <div class="gallery-item is-hidden-repo" data-category="canada partners" data-video="videos/stenberg.mp4">
+        <img src="images/stenberg.png" alt="Student Testimonials" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Stenberg College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Watch Video</button>
+        </div>
+      </div>
+
+              <!-- Standard Sault college-->
+      <div class="gallery-item is-hidden-repo" data-category="canada partners">
+        <img src="images/sault.png" alt="Study in Canada" class="gallery-img">
+        <div class="overlay">
+          <span class="tag">Canada</span>
+          <h3>Sault College</h3>
+          <p>Check our partner school in Canada.</p>
+          <button class="btn-action">Explore Programs</button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Lightbox Modal Structure -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="close-btn" id="closeBtn" aria-label="Close modal">&times;</button>
+
+      <!-- Dynamic Lightbox Wrapper -->
+      <div class="lightbox-img-wrapper" id="lightboxMediaWrapper">
+        <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous item">&#10094;</button>
+        <button class="nav-btn next-btn" id="nextBtn" aria-label="Next item">&#10095;</button>
+      </div>
+
+      <div class="lightbox-body">
+        <h3 class="lightbox-title" id="lightboxTitle"></h3>
+        <p class="lightbox-desc" id="lightboxDesc"></p>
+        <a href="contact.html" class="cta-button">Book Free Consultation</a>
+      </div>
+    </div>
+  </div>
+
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-info">
+                <h3>ACE Assistance</h3>
+                <p>Philippine-based international education agency empowering students and professionals to bridge pathways toward sustainable futures worldwide.</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/ACEAssistance8" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://tiktok.com/@aceassistance" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h3>Start Your Journey</h3>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>2F AL-JO Bldg, Quezon Avenue, San Fernando City, La Union, Philippines</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <a href="mailto:admin@aceassistanceph.com">admin@aceassistanceph.com</a><br>
+                        <a href="mailto:ace.launion@gmail.com">ace.launion@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+63 927 450 2820 / +63 967 316 1000</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-globe"></i>
+                    <a href="http://aceassistanceph.com" target="_blank">aceassistanceph.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ace Assistance ICSO Philippines. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+<script src="review.js"></script>
+<!-- Floating Chat Button -->
+<a href="https://www.messenger.com/t/ACEassistance8/"
+   class="floating-chat"
+   target="_blank"
+   aria-label="Chat with us on Messenger">
+
+    <i class="fab fa-facebook-messenger"></i>
+
+    <span>Chat with Us</span>
+
+</a>
+
+<!-- News & Events Image-Focused Popup Modal -->
+<div id="news-modal" class="modal-overlay">
+    <div class="modal-content modal-image-focused">
+        <!-- Close button -->
+        <button class="modal-close" id="close-news-modal" aria-label="Close modal">&times;</button>
+        
+        <!-- Main Hero Image Showcase -->
+        <div class="modal-media-showcase">
+            <img src="images/news-banner.png" alt="News & Events Poster" onerror="this.src='https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1000'">
+            <span class="modal-badge"><i class="fas fa-star"></i> Featured Event</span>
+        </div>
+
+        <!-- Compact Content Details -->
+        <div class="modal-content-panel">
+            <div class="modal-header">
+                <h2>CANADA ba? TARA! kape tayo with NORTHERN LIGHTS COLLEGE</h2>
+            </div>
+            
+            <div class="modal-body">
+                <p>Join Ace Assistance for our upcoming interactive counseling session! Meet university representatives, explore scholarship opportunities, and start your application process live.</p>
+                <p>Free Coffee and Snacks for all attendees! Don't miss this chance to kickstart your international education journey.</p>
+                <div class="modal-event-details">
+                    <p><i class="fas fa-calendar-alt"></i> <strong>Date:</strong> August 01, 2026</p>
+                    <p><i class="fas fa-clock"></i> <strong>Time:</strong> 2:00 PM</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Venue:</strong> BO'S Coffee, San Fernando City, La Union</p>
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                <a href="https://forms.gle/SLNgqmzBJPc6J3P17" class="btn" target="_blank">Register Now</a>
+            </div>
+        </div>
+    </div>
+</div>>
+</body>
+</html>
